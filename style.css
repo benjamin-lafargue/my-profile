@@ -1,0 +1,156 @@
+body {
+	background-color: rgb(200, 200, 200);
+	color: rgb(50,50,50); 
+	font-size: 17px;
+	text-align: center;
+}
+
+h1 {
+	color: black;
+	font-family: bold;
+	font-size: 30px;
+}
+
+h2{
+	color: black;
+	font-family: bold; 
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+.imgcircle {
+	border-radius: 50%;
+	width: 35%;
+}
+
+
+table{
+    border-collapse: collapse;
+    margin:auto;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.container {
+  width: 1000px; 
+  margin: 40px auto; 
+  border-radius: 50px;
+  padding: 40px;
+
+}
+.card-white1{
+	border: 1px;
+	background-color: rgb(240, 240, 240);;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+	border-radius: 20px solid lightgrey;
+	padding: 50px;
+	margin: 20px;
+	border-radius: 20px;
+
+
+}
+.card-white2 {
+	align-items:none;
+	border: 1px;
+	background: rgb(240, 240, 240);
+	box-shadow: 2px;
+	border-radius: 20px;
+	padding: 50px;
+	margin: 20px;
+
+}
+.card-white3{
+	border: 1px;
+	background-color: rgb(240, 240, 240);
+	box-shadow: 2px;
+	border-radius: 20px;
+	padding: 50px;
+	margin: 20px;
+
+}
+.card-white4{
+	border: 1px;
+	background-color: rgb(240, 240, 240);
+	box-shadow: 2px;
+	border-radius: 20px;
+	padding: 50px;
+	margin: 20px;
+
+}
+.card-white5{
+	border: 1px;
+	background-color: rgb(240, 240, 240);
+	box-shadow: 2px;
+	border-radius: 20px;
+	padding: 50px;
+	margin: 20px;
+	list-style: none;
+}
+
+.card-white6{
+	border: 1px;
+	background-color: rgb(240, 240, 240);
+	box-shadow: 2px;
+	border-radius: 20px;
+	padding: 50px;
+	margin: 20px;
+	list-style: none;
+}
+
+.card img {
+  width: 150px;
+  border-radius: 50%;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.card-white5 li{
+	display:inline;
+	padding: 10px;
+
+}
+
+.card-white5 i{
+	font-size:50px;
+}
+
+.card-white5 i:hover{
+	color:gold;
+}
+
+.card-white6 li{
+	display:inline;
+	padding: 10px;
+
+}
+
+.card-white6 i{
+	font-size:50px;
+
+}
+
+.colorlogovin {
+	color:red;
+}
+
+.colorlogomeat {
+	color: black;
+}
+
+.colorlogomusic {
+	color:green;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
